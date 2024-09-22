@@ -1,5 +1,5 @@
  <!DOCTYPE html>
- <html lang="en">
+ <html lang="en" data-theme ="light">
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +9,56 @@
     <!-- Tailwind and Daisy UI -->
     <title>Document</title>
  </head>
- <body>
+ <body class="">
            <!-- navbar -->
-    <nav>
-
+    <nav class="border-b-2 bg-[#F9F7F3]" >
+      <div>
+          <div class="navbar container mx-auto justify-between pt-4 pb-20">
+            <button class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-none">Blog</button>
+             <div>
+                <img class="px-4" src="assets/logo.png" alt="check your internet connection">
+                <h1 class="text-2xl font-bold">Donate Bangladesh</h1>
+             </div>
+             <div>
+                <img class="px-2" src="assets/coin.png" alt="">
+                <p class=" font-semibold text-xl text-[#111111B3]">5500 BDT</p>
+             </div>
+          </div>
+          <div class="bg-white h-28  text-center space-x-8 space-y-7">
+            <button class="btn btn-success font-bold text-xl px-8 bg-[#e3e4e1] border-none ">Donation</button>
+            <button class="btn btn-success font-bold text-xl px-8 bg-[#e3e4e1] border-none">History</button>
+          </div>
+      </div>
     </nav>
            <!-- navbar -->
            <!-- main section -->
-    <main>
-
+    <main class="bg-white">
+         <section class="container mx-auto lg:my-10">
+            <!-- div number one -->
+            <div class="flex   border rounded-xl w-full h-96 mt-5">
+               <div class="w-1/2">
+                  <img class="w-full h-full p-6" src="assets/noakhali.png" alt="loading...">
+               </div>
+               <div class="p-5 w-[85%] space-y-4">
+                  <!-- a div for donation blance -->
+                   <div class="flex space-x-2 text-center">
+                     <img src="assets/coin.png" alt="loading">
+                     <p>9000 BDT</p>
+                   </div>
+                  <!-- a div for donation blance -->
+                   <h3 class=" text-2xl font-bold">Donate for Flood at Noakhali, Bangladesh</h3>
+                   <p class="text-lg text-[#4b4a4a]">
+                     Calls attention to the dire situation caused by severe flooding in Noakhali, a coastal region in Bangladesh. The devastating floods have displaced families, destroyed homes, and left many in need of immediate help. Donations can provide crucial support, such as emergency supplies, food, clean water, medical care, and temporary shelters.
+                   </p>
+                   <input
+                       type="text"
+                       placeholder="Write Donation Amount"
+                       class=" py-3 rounded-lg px-8 border  w-full" />
+                       <button class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-nonen w-full border-none">Donate Now</button>
+               </div>
+            </div>
+            <!-- div number one -->
+         </section>
     </main>
            <!-- main section -->
            <!-- footer section -->
