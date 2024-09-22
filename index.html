@@ -13,18 +13,24 @@
            <!-- navbar -->
     <nav class="border-b-2 bg-[#F9F7F3] fixed w-full" >
      <section>
-      <div>
-         <div class="navbar container mx-auto justify-between pt-4 pb-20">
-           <button class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-none">Blog</button>
-            <div>
-               <img class="px-4" src="assets/logo.png" alt="check your internet connection">
-               <h1 class="text-2xl font-bold">Donate Bangladesh</h1>
+         <!-- for large and mid level device -->
+         <div>
+            <div class="navbar container mx-auto justify-between pt-4 lg:pb-16 md:pb-16">
+              <button class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-none">Blog</button>
+               <div>
+                  <img class="px-4" src="assets/logo.png" alt="check your internet connection">
+                  <h1 class="text-2xl font-bold">Donate Bangladesh</h1>
+               </div>
+               <div class="lg:block md:block hidden ">
+                  <img class="px-2" src="assets/coin.png" alt="loading...">
+                  <p class=" font-semibold text-xl text-[#111111B3]">5500 BDT</p>
+               </div>
             </div>
-            <div>
-               <img class="px-2" src="assets/coin.png" alt="">
+            <div class="flex pl-[40%] py-5 lg:hidden md:hidden block text-center">
+               <img class="px-"src="assets/coin.png" alt="loading">
                <p class=" font-semibold text-xl text-[#111111B3]">5500 BDT</p>
             </div>
-         </div>
+         <!-- for large and mid level device -->
          <div class="bg-white h-28  text-center space-x-8 space-y-7">
            <button class="btn btn-success font-bold text-xl px-8 bg-[#e3e4e1] border-none ">Donation</button>
            <button class="btn btn-success font-bold text-xl px-8 bg-[#e3e4e1] border-none">History</button>

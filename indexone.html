@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Tailwind and Daisy UI -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <!-- Tailwind and Daisy UI -->
+    <title>Document</title>
+</head>
+<body>
+               <!-- navbar -->
+               <nav class="border-b-2 bg-[#F9F7F3]" >
+                <section>
+                    <!-- for large and mid level device -->
+                    <div>
+                       <div class="navbar container mx-auto justify-between pt-4 lg:pb-16 md:pb-16">
+                         <button class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-none">Home</button>
+                          <div>
+                             <img class="px-4" src="assets/logo.png" alt="check your internet connection">
+                             <h1 class="text-2xl text-black font-bold">Donate Bangladesh</h1>
+                          </div>
+                          <div class="lg:block md:block hidden ">
+                             <img class="px-2" src="assets/coin.png" alt="loading...">
+                             <p class=" font-semibold text-xl text-[#111111B3]">5500 BDT</p>
+                          </div>
+                       </div>
+                       <div class="flex pl-[40%] py-5 lg:hidden md:hidden block text-center">
+                          <img class="px-"src="assets/coin.png" alt="loading">
+                          <p class=" font-semibold text-xl text-[#111111B3]">5500 BDT</p>
+                       </div>
+                    <!-- for large and mid level device -->
+                </div>
+                </section>
+               </nav>
+                      <!-- navbar -->
+
+
+                      <main>
+                        <section class="container mx-auto my-20">
+                            <P class=" text-2xl font-bold mb-20">Important FAQ ?</P>
+                            <div class="collapse collapse-arrow border">
+                                <input type="radio" name="my-accordion-2" checked="checked" />
+                                <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+                                <div class="collapse-content">
+                                  <p>he Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a webpage as a tree of objects, where each node corresponds to a part of the document (like elements, attributes, and text). Through the DOM, programming languages like JavaScript can access and manipulate the content, structure, and styles of a webpage.</p>
+                                </div>
+                              </div>
+                              <div class="collapse collapse-arrow border">
+                                <input type="radio" name="my-accordion-2" />
+                                <div class="collapse-title text-xl font-medium">How do you select on element from the DOM?</div>
+                                <div class="collapse-content">
+                                  <p>Using getElementById, Using getElementsByClassName, Using getElementsByTagName etc.</p>
+                                </div>
+                              </div>
+                              <div class="collapse collapse-arrow border">
+                                <input type="radio" name="my-accordion-2" />
+                                <div class="collapse-title text-xl font-medium">What is the event delegation in the context of DOM,and why is it useful?</div>
+                                <div class="collapse-content">
+                                  <p>Event delegation is a pattern in JavaScript that allows you to handle events at a higher level in the DOM tree, rather than attaching an event listener to each individual element. Instead, you attach a single event listener to a parent element, and then use the event object’s target property to determine which child element triggered the event.
+
+                                    This approach leverages the event bubbling phase, where an event propagates up the DOM tree from the target element to its ancestors. By attaching an event listener to a parent element, you can capture these bubbled events and respond to them accordingly.</p>
+                                </div>
+                              </div>
+                              <div class="collapse collapse-arrow border">
+                                <input type="radio" name="my-accordion-2" />
+                                <div class="collapse-title text-xl font-medium">How do you  manipulate an element's attributes and style using the DOM? </div>
+                                <div class="collapse-content">
+                                  <p>Manipulating DOM Attributes and Style
+                                    To manipulate an element’s attributes and style using the DOM, you can use the following methods:
+                                    
+                                    Attributes:
+                                    
+                                    setAttribute(name, value): Sets the value of an attribute. For example, element.setAttribute('href', 'https://example.com').
+                                    getAttribute(name): Retrieves the value of an attribute. For example, element.getAttribute('href').
+                                    removeAttribute(name): Removes an attribute. For example, element.removeAttribute('href').
+                                    Style:
+                                    
+                                    element.style.property = value: Sets the value of a specific CSS property. For example, element.style.backgroundColor = 'red'.
+                                    element.style.cssText = 'property1:value1; property2:value2;': Sets multiple CSS properties at once. For example, element.style.cssText = 'background-color: red; font-size: 18px;'.
+                                    classList: A collection of classes applied to an element. You can use methods like:</p>
+                                </div>
+                              </div>
+                        </section>
+                      </main>
+</body>
+</html>
