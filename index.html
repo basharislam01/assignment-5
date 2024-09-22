@@ -9,37 +9,39 @@
     <!-- Tailwind and Daisy UI -->
     <title>Document</title>
  </head>
- <body class="">
+ <body>
            <!-- navbar -->
-    <nav class="border-b-2 bg-[#F9F7F3]" >
+    <nav class="border-b-2 bg-[#F9F7F3] fixed w-full" >
+     <section>
       <div>
-          <div class="navbar container mx-auto justify-between pt-4 pb-20">
-            <button class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-none">Blog</button>
-             <div>
-                <img class="px-4" src="assets/logo.png" alt="check your internet connection">
-                <h1 class="text-2xl font-bold">Donate Bangladesh</h1>
-             </div>
-             <div>
-                <img class="px-2" src="assets/coin.png" alt="">
-                <p class=" font-semibold text-xl text-[#111111B3]">5500 BDT</p>
-             </div>
-          </div>
-          <div class="bg-white h-28  text-center space-x-8 space-y-7">
-            <button class="btn btn-success font-bold text-xl px-8 bg-[#e3e4e1] border-none ">Donation</button>
-            <button class="btn btn-success font-bold text-xl px-8 bg-[#e3e4e1] border-none">History</button>
-          </div>
-      </div>
+         <div class="navbar container mx-auto justify-between pt-4 pb-20">
+           <button class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-none">Blog</button>
+            <div>
+               <img class="px-4" src="assets/logo.png" alt="check your internet connection">
+               <h1 class="text-2xl font-bold">Donate Bangladesh</h1>
+            </div>
+            <div>
+               <img class="px-2" src="assets/coin.png" alt="">
+               <p class=" font-semibold text-xl text-[#111111B3]">5500 BDT</p>
+            </div>
+         </div>
+         <div class="bg-white h-28  text-center space-x-8 space-y-7">
+           <button class="btn btn-success font-bold text-xl px-8 bg-[#e3e4e1] border-none ">Donation</button>
+           <button class="btn btn-success font-bold text-xl px-8 bg-[#e3e4e1] border-none">History</button>
+         </div>
+     </div>
+     </section>
     </nav>
            <!-- navbar -->
            <!-- main section -->
-    <main class="bg-white">
-         <section class="container mx-auto lg:my-10">
+    <main class="bg-white pt-80 pb-20">
+         <section class="lg:container lg:mx-auto md:mx-auto">
             <!-- div number one -->
-            <div class="flex   border rounded-xl w-full h-96 mt-5">
-               <div class="w-1/2">
-                  <img class="w-full h-full p-6" src="assets/noakhali.png" alt="loading...">
+            <div class=" lg:flex md:flex  border rounded-xl w-full">
+               <div class="">
+                  <img class=" w- h-full p-6" src="assets/noakhali.png" alt="loading...">
                </div>
-               <div class="p-5 w-[85%] space-y-4">
+               <div class="p-6 w-[85%] space-y-4">
                   <!-- a div for donation blance -->
                    <div class="flex space-x-2 text-center">
                      <img src="assets/coin.png" alt="loading">
@@ -58,12 +60,62 @@
                </div>
             </div>
             <!-- div number one -->
+             <!-- div number two -->
+            <div class=" lg:flex md:flex  border rounded-xl w-full  mt-5">
+               <div class="">
+                  <img class=" w- h-full p-6" src="assets/feni.png" alt="loading...">
+               </div>
+               <div class="p-6 w-[85%] space-y-4">
+                  <!-- a div for donation blance -->
+                   <div class="flex space-x-2 text-center">
+                     <img src="assets/coin.png" alt="loading">
+                     <p>9000 BDT</p>
+                   </div>
+                  <!-- a div for donation blance -->
+                   <h3 class=" text-2xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h3>
+                   <p class="text-lg text-[#4b4a4a]">
+                     Our help those affected by severe flooding in Feni. Your donation can provide vital resources such as food, clean water, medical supplies, and temporary shelter to families displaced by the disaster. Every contribution will support recovery efforts, helping rebuild lives and restoring hope in the community.
+                   </p>
+                   <input
+                       type="text"
+                       placeholder="Write Donation Amount"
+                       class=" py-3 rounded-lg px-8 border  w-full" />
+                       <button class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-nonen w-full border-none">Donate Now</button>
+               </div>
+            </div>
+            <!-- div number two -->
+             <!-- div number three -->
+            <div class=" lg:flex md:flex  border rounded-xl w-full  mt-5">
+               <div class="">
+                  <img class=" w- h-full p-6" src="assets/quota-protest.png" alt="loading...">
+               </div>
+               <div class="p-6 w-[85%] space-y-4">
+                  <!-- a div for donation blance -->
+                   <div class="flex space-x-2 text-center">
+                     <img src="assets/coin.png" alt="loading">
+                     <p>9000 BDT</p>
+                   </div>
+                  <!-- a div for donation blance -->
+                   <h3 class=" text-2xl font-bold">Aid for Injured in the Quota Movement</h3>
+                   <p class="text-lg text-[#4b4a4a]">
+                     Injured during protests related to the quota reform movement. Many individuals sustained injuries while advocating for fairer employment opportunities. Donations will help cover medical treatment, rehabilitation, and other essential needs for the injured, offering them both physical and financial support as they recover from the ordeal.
+                   </p>
+                   <input
+                       type="text"
+                       placeholder="Write Donation Amount"
+                       class=" py-3 rounded-lg px-8 border  w-full" />
+                       <button class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-nonen w-full border-none">Donate Now</button>
+               </div>
+            </div>
+            <!-- div number one -->
          </section>
     </main>
            <!-- main section -->
            <!-- footer section -->
     <footer>
+         <div class="h-40 bg-[#F9F7F3]">
 
+         </div>
     </footer>
           <!-- footer section -->
  </body>
