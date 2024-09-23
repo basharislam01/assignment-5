@@ -15,27 +15,22 @@
      <section>
          <!-- for large and mid level device -->
          <div>
-            <div class="navbar container mx-auto justify-between pt-4 lg:pb-16 md:pb-16">
+            <div class=" flex flex-col md:flex-row lg:flex-row lg:space-y-0 md:space-y-0 space-y-4 navbar container mx-auto justify-between pt-4 lg:pb-16 md:pb-16">
               <button class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-none">Blog</button>
                <div>
                   <img class="px-4" src="assets/logo.png" alt="check your internet connection">
                   <h1 class="text-2xl font-bold">Donate Bangladesh</h1>
                </div>
-               <div class="md:block lg:block hidden">
-                  <div class=" flex border">                 
+               <div>
+                  <div class=" flex">                 
                      <img class="px-2" src="assets/coin.png" alt="loading...">                  
                      <p id="account-balance" class="font-semibold text-xl text-[#111111B3]">5500 BDT</p>
                </div>
                </div>
             </div>
-            <div class="flex pl-[40%] py-5 lg:hidden md:hidden block text-center">
-               <img class="px-"src="assets/coin.png" alt="loading">
-               <p class=" font-semibold text-xl text-[#111111B3]">5500 BDT</p>
-            </div>
-         <!-- for large and mid level device -->
          <div class="bg-white h-28  text-center space-x-8 space-y-7">
-           <button class="btn btn-success font-bold text-xl px-8 bg-white border-[#1111114D]">Donation</button>
-           <button class="btn btn-success font-bold text-xl px-8 bg-white border-[#1111114D]">History</button>
+           <button id="show-donation-section" class="btn btn-success font-bold text-xl px-8 bg-white border-[#1111114D]">Donation</button>
+           <button id="show-history-section" class="btn btn-success font-bold text-xl px-8 bg-white border-[#1111114D]">History</button>
          </div>
      </div>
      </section>
@@ -43,7 +38,14 @@
            <!-- navbar -->
            <!-- main section -->
     <main class="bg-white pt-80 pb-20">
-         <section class="lg:container lg:mx-auto md:mx-auto mx-6">
+                       <!-- Transaction History Section -->
+         <section id="mew-history" class="pb-[400px]">
+            <div>
+
+            </div>
+         </section>               
+                       <!-- Transaction History Section -->
+         <section id="dekh-shala-moja" class="lg:container lg:mx-auto md:mx-auto mx-6">
             <!-- div number one -->
             <div class=" lg:flex md:flex  border rounded-xl w-full">
                <div class="">

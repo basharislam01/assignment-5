@@ -9,3 +9,10 @@ function getTextFieldValueById(id){
     const inputNmber = parseFloat(inputValue);
     return inputNmber;
 }
+
+
+function showSectionById(id){
+    document.getElementById('mew-history').classList.add('hidden');
+    document.getElementById('dekh-shala-moja').classList.add('hidden');
+    document.getElementById(id).classList.remove('hidden');
+}

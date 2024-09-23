@@ -62,3 +62,18 @@ document.getElementById('donate-q')
 
 
 //  onek koste korso bashar tumi oporer funtion r vulew hat dio na 
+
+
+// Show Transaction histroy section
+
+document.getElementById('show-history-section')
+  .addEventListener('click', function(){
+    showSectionById('mew-history')
+
+})
+
+document.getElementById('show-donation-section')
+  .addEventListener('click', function(){
+    showSectionById('dekh-shala-moja')
+
+})
