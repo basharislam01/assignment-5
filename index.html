@@ -21,9 +21,11 @@
                   <img class="px-4" src="assets/logo.png" alt="check your internet connection">
                   <h1 class="text-2xl font-bold">Donate Bangladesh</h1>
                </div>
-               <div class="lg:block md:block hidden ">
-                  <img class="px-2" src="assets/coin.png" alt="loading...">
-                  <p class=" font-semibold text-xl text-[#111111B3]">5500 BDT</p>
+               <div class="md:block lg:block hidden">
+                  <div class=" flex border">                 
+                     <img class="px-2" src="assets/coin.png" alt="loading...">                  
+                     <p id="account-balance" class="font-semibold text-xl text-[#111111B3]">5500 BDT</p>
+               </div>
                </div>
             </div>
             <div class="flex pl-[40%] py-5 lg:hidden md:hidden block text-center">
@@ -32,8 +34,8 @@
             </div>
          <!-- for large and mid level device -->
          <div class="bg-white h-28  text-center space-x-8 space-y-7">
-           <button class="btn btn-success font-bold text-xl px-8 bg-[#e3e4e1] border-none ">Donation</button>
-           <button class="btn btn-success font-bold text-xl px-8 bg-[#e3e4e1] border-none">History</button>
+           <button class="btn btn-success font-bold text-xl px-8 bg-white border-[#1111114D]">Donation</button>
+           <button class="btn btn-success font-bold text-xl px-8 bg-white border-[#1111114D]">History</button>
          </div>
      </div>
      </section>
@@ -47,11 +49,11 @@
                <div class="">
                   <img class=" w- h-full p-6" src="assets/noakhali.png" alt="loading...">
                </div>
-               <div class="p-6 w-[85%] space-y-4">
+               <div class="p-6 w-[85%] space-y-4 ">
                   <!-- a div for donation blance -->
-                   <div class="flex space-x-2 text-center">
+                   <div class="flex space-x-2 text-center border-[#1111114D]   bg-[#1111110D] p-3 w-36 rounded-xl">
                      <img src="assets/coin.png" alt="loading">
-                     <p>9000 BDT</p>
+                     <p id="n-donated-amount" class="text-[#4b4a4a] font-bold text-lg">3000 BDT</p>
                    </div>
                   <!-- a div for donation blance -->
                    <h3 class=" text-2xl font-bold">Donate for Flood at Noakhali, Bangladesh</h3>
@@ -59,10 +61,11 @@
                      Calls attention to the dire situation caused by severe flooding in Noakhali, a coastal region in Bangladesh. The devastating floods have displaced families, destroyed homes, and left many in need of immediate help. Donations can provide crucial support, such as emergency supplies, food, clean water, medical care, and temporary shelters.
                    </p>
                    <input
+                       id="donation-amount-n"
                        type="text"
                        placeholder="Write Donation Amount"
                        class=" py-3 rounded-lg px-8 border  w-full" />
-                       <button class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-nonen w-full border-none">Donate Now</button>
+                       <button id="donate-n" class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-nonen w-full border-none">Donate Now</button>
                </div>
             </div>
             <!-- div number one -->
@@ -73,9 +76,9 @@
                </div>
                <div class="p-6 w-[85%] space-y-4">
                   <!-- a div for donation blance -->
-                   <div class="flex space-x-2 text-center">
+                  <div class="flex space-x-2 text-center border-[#1111114D]   bg-[#1111110D] p-3 w-36 rounded-xl">
                      <img src="assets/coin.png" alt="loading">
-                     <p>9000 BDT</p>
+                     <p id="f-donated-amount" class="text-[#4b4a4a] font-bold text-lg">9000 BDT</p>
                    </div>
                   <!-- a div for donation blance -->
                    <h3 class=" text-2xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h3>
@@ -83,10 +86,11 @@
                      Our help those affected by severe flooding in Feni. Your donation can provide vital resources such as food, clean water, medical supplies, and temporary shelter to families displaced by the disaster. Every contribution will support recovery efforts, helping rebuild lives and restoring hope in the community.
                    </p>
                    <input
+                       id="doation-amount-f"
                        type="text"
                        placeholder="Write Donation Amount"
                        class=" py-3 rounded-lg px-8 border  w-full" />
-                       <button class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-nonen w-full border-none">Donate Now</button>
+                       <button id="donate-f" class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-nonen w-full border-none">Donate Now</button>
                </div>
             </div>
             <!-- div number two -->
@@ -97,9 +101,9 @@
                </div>
                <div class="p-6 w-[85%] space-y-4">
                   <!-- a div for donation blance -->
-                   <div class="flex space-x-2 text-center">
+                  <div class="flex space-x-2 text-center border-[#1111114D]   bg-[#1111110D] p-3 w-36 rounded-xl">
                      <img src="assets/coin.png" alt="loading">
-                     <p>9000 BDT</p>
+                     <p id="q-donated-amount" class="text-[#4b4a4a] font-bold text-lg">6500 BDT</p>
                    </div>
                   <!-- a div for donation blance -->
                    <h3 class=" text-2xl font-bold">Aid for Injured in the Quota Movement</h3>
@@ -107,10 +111,11 @@
                      Injured during protests related to the quota reform movement. Many individuals sustained injuries while advocating for fairer employment opportunities. Donations will help cover medical treatment, rehabilitation, and other essential needs for the injured, offering them both physical and financial support as they recover from the ordeal.
                    </p>
                    <input
+                       id="donation-amount-q"
                        type="text"
                        placeholder="Write Donation Amount"
                        class=" py-3 rounded-lg px-8 border  w-full" />
-                       <button class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-nonen w-full border-none">Donate Now</button>
+                       <button id="donate-q" class="btn btn-success font-bold text-xl px-8 bg-[#B4F461] border-nonen w-full border-none">Donate Now</button>
                </div>
             </div>
             <!-- div number one -->
@@ -124,5 +129,7 @@
          </div>
     </footer>
           <!-- footer section -->
+           <script src="dry.js"></script>
+           <script src="asokori.js"></script>
  </body>
  </html>
