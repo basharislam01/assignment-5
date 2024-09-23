@@ -18,18 +18,18 @@ document.getElementById('donate-n')
         
 
         //    transaction history
-    
+     const dateAndTimeZone = new Date();
      const div = document.createElement('div');
      div.classList.add('space-y-4');
      div.classList.add('w-full');
-     div.classList.add('p-8');
+     div.classList.add('p-6');
      div.classList.add('border');
      div.classList.add('rounded-xl');
      div.classList.add('text-left');
 
      div.innerHTML = `
-        <h4 class="text-2xl font-bold">${amount} Donate for Flood at Noakhali, Bangladesh</h4>
-         <p>date and time zone</p>
+        <h4 class="lg:text-2xl md:text-2xl text-lg font-bold">${amount} Donate for Flood at Noakhali, Bangladesh</h4>
+         <p>${dateAndTimeZone}</p>
      `   
        
      document.getElementById('vat-kha').appendChild(div);
@@ -58,7 +58,26 @@ document.getElementById('donate-f')
     document.getElementById('account-balance').innerText = newBalance;
     const newDonationAmount = donationAmount + amount;
     document.getElementById('f-donated-amount').innerText = newDonationAmount;
-   }
+
+    
+
+        //    transaction history
+        const dateAndTimeZone = new Date();
+        const div = document.createElement('div');
+        div.classList.add('space-y-4');
+        div.classList.add('w-full');
+        div.classList.add('p-6');
+        div.classList.add('border');
+        div.classList.add('rounded-xl');
+        div.classList.add('text-left');
+   
+        div.innerHTML = `
+           <h4 class="lg:text-2xl md:text-2xl text-lg font-bold">${amount} Donate for Flood Relief in Feni,Bangladesh</h4>
+            <p>${dateAndTimeZone}</p>
+        `   
+          
+        document.getElementById('vat-kha').appendChild(div);
+  }
 
  })
 
@@ -78,6 +97,27 @@ document.getElementById('donate-q')
     document.getElementById('account-balance').innerText = newBalance;
     const newDonationAmount = donationAmount + amount;
     document.getElementById('q-donated-amount').innerText = newDonationAmount;
+        
+
+        //    transaction history
+        const dateAndTimeZone = new Date();
+        const div = document.createElement('div');
+        div.classList.add('space-y-4');
+        div.classList.add('w-full');
+        div.classList.add('p-6');
+        div.classList.add('border');
+        div.classList.add('rounded-xl');
+        div.classList.add('text-left');
+   
+        div.innerHTML = `
+           <h4 class="lg:text-2xl md:text-2xl text-lg font-bold">${amount} Aid for Injured in the Quota Movement</h4>
+            <p>${dateAndTimeZone}</p>
+        `   
+          
+        document.getElementById('vat-kha').appendChild(div);
+   
+   
+   
    }
 
  })
