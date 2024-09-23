@@ -15,6 +15,28 @@ document.getElementById('donate-n')
     document.getElementById('account-balance').innerText = newBalance;
     const newDonationAmount = donationAmount + amount;
     document.getElementById('n-donated-amount').innerText = newDonationAmount;
+        
+
+        //    transaction history
+    
+     const div = document.createElement('div');
+     div.classList.add('space-y-4');
+     div.classList.add('w-full');
+     div.classList.add('p-8');
+     div.classList.add('border');
+     div.classList.add('rounded-xl');
+     div.classList.add('text-left');
+
+     div.innerHTML = `
+        <h4 class="text-2xl font-bold">${amount} Donate for Flood at Noakhali, Bangladesh</h4>
+         <p>date and time zone</p>
+     `   
+       
+     document.getElementById('vat-kha').appendChild(div);
+
+
+
+
    }
 
  })
