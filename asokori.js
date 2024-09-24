@@ -28,7 +28,7 @@ document.getElementById('donate-n')
      div.classList.add('text-left');
 
      div.innerHTML = `
-        <h4 class="lg:text-2xl md:text-2xl text-lg font-bold">${amount} Donate for Flood at Noakhali, Bangladesh</h4>
+        <h4 class="lg:text-2xl md:text-2xl text-lg font-bold">${amount} Taka is Donate for Flood at Noakhali, Bangladesh</h4>
          <p>${dateAndTimeZone}</p>
      `   
        
@@ -72,7 +72,7 @@ document.getElementById('donate-f')
         div.classList.add('text-left');
    
         div.innerHTML = `
-           <h4 class="lg:text-2xl md:text-2xl text-lg font-bold">${amount} Donate for Flood Relief in Feni,Bangladesh</h4>
+           <h4 class="lg:text-2xl md:text-2xl text-lg font-bold">${amount} Taka is Donate for Flood Relief in Feni,Bangladesh</h4>
             <p>${dateAndTimeZone}</p>
         `   
           
@@ -110,7 +110,7 @@ document.getElementById('donate-q')
         div.classList.add('text-left');
    
         div.innerHTML = `
-           <h4 class="lg:text-2xl md:text-2xl text-lg font-bold">${amount} Aid for Injured in the Quota Movement</h4>
+           <h4 class="lg:text-2xl md:text-2xl text-lg font-bold">${amount} Taka is Aid for Injured in the Quota Movement</h4>
             <p>${dateAndTimeZone}</p>
         `   
           
@@ -139,3 +139,5 @@ document.getElementById('show-donation-section')
     showSectionById('dekh-shala-moja')
 
 })
+
+// button color change
