@@ -1,6 +1,6 @@
 // For Noakhali, Bangladesh
 
-
+const myModal = document.getElementById('my_modal_4');
 document.getElementById('donate-n')
  .addEventListener('click', function(event){
    event.preventDefault();
@@ -15,7 +15,7 @@ document.getElementById('donate-n')
     document.getElementById('account-balance').innerText = newBalance;
     const newDonationAmount = donationAmount + amount;
     document.getElementById('n-donated-amount').innerText = newDonationAmount;
-        
+    myModal.showModal();  
 
         //    transaction history
      const dateAndTimeZone = new Date();
@@ -58,7 +58,7 @@ document.getElementById('donate-f')
     document.getElementById('account-balance').innerText = newBalance;
     const newDonationAmount = donationAmount + amount;
     document.getElementById('f-donated-amount').innerText = newDonationAmount;
-
+    myModal.showModal();  
     
 
         //    transaction history
@@ -97,7 +97,7 @@ document.getElementById('donate-q')
     document.getElementById('account-balance').innerText = newBalance;
     const newDonationAmount = donationAmount + amount;
     document.getElementById('q-donated-amount').innerText = newDonationAmount;
-        
+    myModal.showModal();      
 
         //    transaction history
         const dateAndTimeZone = new Date();
